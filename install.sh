@@ -11,4 +11,5 @@ echo "launching environment"
 cp bashrc /$HOME/.bashrc
 sudo apt install curl
 curl -L https://nixos.org/nix/install | sh
+sudo chown -R $USER /nix
 source ~/.nix-profile/etc/profile.d/nix.sh
