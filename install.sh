@@ -13,5 +13,5 @@ echo "installing dependencies"
 sudo apt install curl
 sudo chown -R $USER /nix
 curl -L https://nixos.org/nix/install | sh
-echo "launching environment"
 source ~/.nix-profile/etc/profile.d/nix.sh
+echo "restart shell to start using nix"
