@@ -9,5 +9,6 @@ systemctl start nix-in-home
 systemctl enable nix-in-home
 echo "launching environment"
 cp bashrc /$HOME/.bashrc
+sudo apt install curl
 curl -L https://nixos.org/nix/install | sh
 source ~/.nix-profile/etc/profile.d/nix.sh
